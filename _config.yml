@@ -5,9 +5,6 @@ collections:
   categories:
     title: Categories
     output: true
-  items:
-    title: Items
-    output: true
   posts:
     title: Posts
     output: true
@@ -21,6 +18,8 @@ collections:
       store: 
   uploads:
     title: Uploads
+  pages:
+    title: Pages
     output: true
 description: 
 baseurl: 
