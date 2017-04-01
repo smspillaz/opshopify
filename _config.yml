@@ -18,14 +18,14 @@ description:
 baseurl: 
 products:
 - title: An ancient heirloom
-  image: 
+  image: https://placehold.it/350x150
   price: "$2"
   store: Joondalup
 - title: A nice dress
-  image: 
+  image: https://placehold.it/350x150
   price: "$3"
   store: North Perth
 - title: Culturally significant spears
-  image: 
+  image: https://placehold.it/350x150
   price: "$10"
   store: Maddington
