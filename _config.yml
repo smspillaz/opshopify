@@ -16,6 +16,21 @@ collections:
     output: false
 description: 
 baseurl: 
+
+stores:
+  - name: Joondalup
+    address: 123 Fake Street Joondalup
+    tags:
+    - stylish
+    - fun
+    - cheap
+  - name: North Perth
+    address: 432 Real Street North Perth
+    tags:
+    - edgy
+    - cool
+    - expensive
+
 products:
 - title: An ancient heirloom
   image: https://placehold.it/350x150
