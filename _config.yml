@@ -2,22 +2,36 @@
 title: Opshopify
 timezone: UTC
 collections:
+  categories:
+    title: Categories
+    output: true
+  items:
+    title: Items
+    output: true
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    permalink: "/posts/:title/"
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-permalink: pretty
+products:
+- product: 
+  title: first test
+  image: http://placehold.it/350x150
+  description: this is the description
+  store: store 1
+  price: "$12"
+- product: 
+  title: second test
+  image: http://placehold.it/350x150
+  description: this is another description
+  store: store 2
+  price: "$14.50"
+- product: 
+  title: created from siteleaf
+  image: https://placehold.it/350x150
+  description: This is the description for the third product
+  store: store 1
+  price: "$16.33"
+description: 
+baseurl: 
