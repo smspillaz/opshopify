@@ -14,6 +14,11 @@ collections:
   products:
     title: Products
     output: true
+    items:
+    - title: 
+      image: 
+      price: 
+      store: 
   uploads:
     title: Uploads
     output: true
