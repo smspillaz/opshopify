@@ -19,12 +19,14 @@ baseurl: "/opshopify"
 stores:
 - name: Joondalup
   address: 123 Fake Street Joondalup
+  image: https://placehold.it/350x150
   tags:
   - stylish
   - fun
   - cheap
 - name: North Perth
   address: 432 Real Street North Perth
+  image: https://placehold.it/350x150
   tags:
   - edgy
   - cool
