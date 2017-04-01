@@ -11,22 +11,21 @@ collections:
   posts:
     title: Posts
     output: true
-  pages:
-    title: Pages
-    output: true
+  uploads:
+    title: Uploads
+    output: false
 description: 
 baseurl: 
-
 products:
-  - title: An ancient heirloom
-    image:
-    price: $2
-    store: Joondalup
-  - title: A nice dress
-    image:
-    price: $3
-    store: North Perth
-  - title: Culturally significant spears
-    image:
-    price: $10
-    store: Maddington
+- title: An ancient heirloom
+  image: 
+  price: "$2"
+  store: Joondalup
+- title: A nice dress
+  image: 
+  price: "$3"
+  store: North Perth
+- title: Culturally significant spears
+  image: 
+  price: "$10"
+  store: Maddington
