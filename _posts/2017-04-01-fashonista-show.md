@@ -3,6 +3,7 @@ title: Fashonista Show
 date: 2017-04-01 00:00:00 Z
 subtitle: FABolous society
 layout: post
+image: /img/portfolio/2.jpg
 modal-id: 1
 ---
 
