@@ -27,5 +27,11 @@ products:
   description: this is another description
   store: store 2
   price: "$14.50"
-description: ''
-baseurl: ''
+- product: 
+  title: created from siteleaf
+  image: https://placehold.it/350x150
+  description: This is the description for the third product
+  store: store 1
+  price: "$16.33"
+description: 
+baseurl: 
