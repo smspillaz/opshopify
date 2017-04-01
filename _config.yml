@@ -9,17 +9,17 @@ collections:
     title: Uploads
     output: true
 products:
-  - product:
-    title: 'first test'
-    image: 'http://placehold.it/350x150'
-    description: 'this is the description'
-    store: 'store 1'
-    price: '$12'
-  - product:
-    title: 'second test'
-    image: 'http://placehold.it/350x150'
-    description: 'this is another description'
-    store: 'store 2'
-    price: '$14.50'
+- product: 
+  title: first test
+  image: http://placehold.it/350x150
+  description: this is the description
+  store: store 1
+  price: "$12"
+- product: 
+  title: second test
+  image: http://placehold.it/350x150
+  description: this is another description
+  store: store 2
+  price: "$14.50"
 description: ''
 baseurl: ''
