@@ -11,6 +11,7 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+                {% if page.url == site.url %}
                 <li>
                     <a class="page-scroll" href="#featured">Featured Items</a>
                 </li>
@@ -20,6 +21,17 @@
                 <li>
                     <a class="page-scroll" href="#info">Info</a>
                 </li>
+                {% else %}
+                <li>
+                    <a class="page-scroll" href="{{ site.baseurl }}/#featured">Featured Items</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{ site.baseurl }}/#stores">Stores</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{ site.baseurl }}/#info">Info</a>
+                </li>
+                {% endif %}
                 {% for page in site.pages %}
                 <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
                 {% endfor %}
