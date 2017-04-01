@@ -5,9 +5,10 @@ subtitle: FABolous society
 layout: post
 image: "/img/portfolio/2.jpg"
 modal-id: 1
+products:
+- heirloom
+- dress
 ---
-
-# In Apidani tanta resumptis Cinyras petit
 
 ## Aquilone qui titulis
 
