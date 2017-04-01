@@ -33,14 +33,25 @@ stores:
   - expensive
 products:
 - title: An ancient heirloom
+  name: heirloom
   image: https://placehold.it/350x150
   price: "$2"
   store: Joondalup
 - title: A nice dress
+  name: dress
   image: https://placehold.it/350x150
   price: "$3"
   store: North Perth
 - title: Culturally significant spears
+  name: spears
   image: https://placehold.it/350x150
   price: "$10"
   store: Maddington
+pcategories:
+- name: Antiques
+  products:
+  - heirloom
+  - spears
+- name: Clothes
+  products:
+  - dress
