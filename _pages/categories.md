@@ -7,6 +7,4 @@ layout: default
   {% for category in site.categories %}
     <p>{{ category.title }}</p>
   {% endfor %}
-  
-  test
 </div>
