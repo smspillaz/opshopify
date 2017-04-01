@@ -5,41 +5,27 @@ collections:
   categories:
     title: Categories
     output: true
-  items:
-    title: Items
+  pages:
+    title: Pages
     output: true
   posts:
     title: Posts
     output: true
-  products:
-    title: Products
-    output: true
-    items:
-    - title: 
-      image: 
-      price: 
-      store: 
   uploads:
     title: Uploads
-    output: true
-products:
-- product: 
-  title: first test
-  image: http://placehold.it/350x150
-  description: this is the description
-  store: store 1
-  price: "$12"
-- product: 
-  title: second test
-  image: http://placehold.it/350x150
-  description: this is another description
-  store: store 2
-  price: "$14.50"
-- product: 
-  title: created from siteleaf
-  image: https://placehold.it/350x150
-  description: This is the description for the third product
-  store: store 1
-  price: "$16.33"
+    output: false
 description: 
 baseurl: 
+products:
+- title: An ancient heirloom
+  image: https://placehold.it/350x150
+  price: "$2"
+  store: Joondalup
+- title: A nice dress
+  image: https://placehold.it/350x150
+  price: "$3"
+  store: North Perth
+- title: Culturally significant spears
+  image: https://placehold.it/350x150
+  price: "$10"
+  store: Maddington

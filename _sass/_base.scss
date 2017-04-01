@@ -205,6 +205,12 @@ header {
     }
 }
 
+header.page {
+    @media (min-width: 768px) {
+        min-height: 50%;
+    }
+}
+
 // Sections
 
 .section-heading {
