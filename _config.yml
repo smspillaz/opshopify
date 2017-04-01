@@ -2,14 +2,17 @@
 title: Opshopify
 timezone: UTC
 collections:
-  posts:
-    title: Posts
+  categories:
+    title: Categories
     output: true
   items:
     title: Items
     output: true
-  categories:
-    title: Categories
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
     output: true
 products:
 - product: 
