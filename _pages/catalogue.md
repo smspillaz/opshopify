@@ -1,6 +1,6 @@
 ---
 title: Catalogue
-layout: flat-list
+layout: default
 ---
 
 <div class="container">
