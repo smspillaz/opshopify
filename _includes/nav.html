@@ -1,6 +1,5 @@
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
+<nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -8,36 +7,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">OPSHOPIFY</a>
+            <a class="navbar-brand page-scroll" href="{{ site.baseurl }}">{{ site.title }}</a>
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="page-scroll" href="#featured">Featured Items</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#stores">Stores</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#info">Info</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="{{ '/pages/posts' | prepend: site.baseurl }}">Posts</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="{{ '/pages/categories' | prepend: site.baseurl }}">Categories</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="{{ '/pages/catalogue' | prepend: site.baseurl }}">Catalogue</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
+                {% for page in site.pages %}
+                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                {% endfor %}
             </ul>
         </div>
-        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container-fluid -->
 </nav>
