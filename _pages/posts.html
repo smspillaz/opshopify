@@ -6,6 +6,6 @@ layout: default
 
 <div class="container">
   {% for post in site.posts %}
-    <p>{{ post.title }}</p>
+    <p><a href='{{ post.url | prepend: site.baseurl}}'>{{ post.title }}</a></p>
   {% endfor %}
 </div>
