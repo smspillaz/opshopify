@@ -64,6 +64,7 @@ stores:
   tags:
   - clothes
   - white goods
+  Key: Hello
 products:
 - title: An ancient heirloom
   name: heirloom
