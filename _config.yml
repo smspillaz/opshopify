@@ -57,12 +57,10 @@ stores:
   tags:
   - clothes
   - white goods
-- name: 'Armadale '
+- name: Armadale (Not the actual store but could be what the store could look like
+    in the shopping centre)
   address: Shop 2 Jull Street Armadale WA 6112
   image: "/uploads/Armadale.PNG"
-  Key:
-    Key 1: Not the actual store but could be what the store could look like in the
-      shopping centre
   tags:
   - clothes
   - white goods
