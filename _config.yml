@@ -17,20 +17,52 @@ collections:
 description: 
 baseurl: ''
 stores:
-- name: Joondalup
-  address: 123 Fake Street Joondalup
+- name: Kelmscott
+  address: 1/227 Railway Avenue Kelmscott WA 6111
   image: https://placehold.it/350x150
   tags:
   - stylish
   - fun
   - cheap
 - name: North Perth
-  address: 432 Real Street North Perth
+  address: 392 Fitzgerald Street North Perth WA  6006
   image: https://placehold.it/350x150
   tags:
-  - edgy
-  - cool
-  - expensive
+  - vintage
+  - high end
+  - quirky
+  - collectors
+- name: Belmont
+  address: 9/199 Abernethy Road Belmont WA 6104
+  image: https://placehold.it/350x150
+  tags:
+  - clothes
+  - white goods
+- name: Fremantle
+  address: Shop 1 142 High Street Fremantle WA 6160
+  image: https://placehold.it/350x150
+  tags:
+  - furniture
+  - clothes
+  - trinkets
+- name: Maddington
+  address: 2/3 Maddington Square 80 Attfield Street Maddington WA 6109
+  image: https://placehold.it/350x150
+  tags:
+  - clothes
+  - white goods
+- name: Morley
+  address: 4/129 Russell Street Morley WA 6062
+  image: https://placehold.it/350x150
+  tags:
+  - clothes
+  - white goods
+- name: Armadale
+  address: Shop 2 Jull Street Armadale WA 6112
+  image: https://placehold.it/350x150
+  tags:
+  - clothes
+  - white goods
 products:
 - title: An ancient heirloom
   name: heirloom
