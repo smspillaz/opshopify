@@ -76,7 +76,7 @@ products:
   store: Belmont
 - title: A nice dress
   name: dress
-  image: https://placehold.it/350x150
+  image: "/uploads/girl-1467456_640.jpg"
   price: "$3"
   store: North Perth
 - title: Culturally significant spears
