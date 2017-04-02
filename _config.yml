@@ -69,6 +69,11 @@ products:
   image: https://placehold.it/350x150
   price: "$2"
   store: Joondalup
+- title: Rock flavoured vase
+  name: rockvase
+  image: https://placehold.it/350x150
+  price: "$20"
+  store: Belmont
 - title: A nice dress
   name: dress
   image: https://placehold.it/350x150
