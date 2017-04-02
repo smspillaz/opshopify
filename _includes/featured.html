@@ -7,8 +7,9 @@
             {% for product in site.products limit: 3 %}
             <div class="col-md-4">
                 <div class="thumbnail text-center">
-                    <img src="{{ product.image }}" alt="{{ product.title }} image">
-                    <div class="caption"></div>
+                    <div class="thumbnail-image">
+                        <img src="{{ product.image }}" alt="{{ product.title }} image">
+                    </div>
                     <h3>{{ product.title }}</h3>
                     <p>{{ product.description }}</p>
                     <p>{{ product.store }}</p>
