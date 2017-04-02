@@ -211,6 +211,31 @@ header.page {
     }
 }
 
+// Content
+.content-row {
+    margin-top: 30px;
+}
+
+.row.content-item {
+    margin-top: 30px;
+
+    @media (min-width: 768px) {
+        padding: 10px;
+        border: solid $theme-primary;
+        border-width: 1px;
+    }
+
+    .content-row-thumbnail {
+        min-height: 150px;
+        max-height: 150px;
+
+        @media (min-width: 768px) {
+            min-height: 350px;
+            max-height: 150px;
+        }
+    }
+}
+
 // Sections
 
 .section-heading {

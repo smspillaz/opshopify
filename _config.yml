@@ -15,17 +15,109 @@ collections:
     title: Uploads
     output: false
 description: 
-baseurl: 
+baseurl: ''
+stores:
+- name: Kelmscott
+  address: 1/227 Railway Avenue Kelmscott WA 6111
+  image: https://placehold.it/350x150
+  tags:
+  - stylish
+  - fun
+  - cheap
+- name: North Perth
+  address: 392 Fitzgerald Street North Perth WA  6006
+  image: https://placehold.it/350x150
+  tags:
+  - vintage
+  - high end
+  - quirky
+  - collectors
+- name: Belmont
+  address: 9/199 Abernethy Road Belmont WA 6104
+  image: https://placehold.it/350x150
+  tags:
+  - clothes
+  - white goods
+- name: Fremantle
+  address: Shop 1 142 High Street Fremantle WA 6160
+  image: https://placehold.it/350x150
+  tags:
+  - furniture
+  - clothes
+  - trinkets
+- name: Maddington
+  address: 2/3 Maddington Square 80 Attfield Street Maddington WA 6109
+  image: https://placehold.it/350x150
+  tags:
+  - clothes
+  - white goods
+- name: Morley
+  address: 4/129 Russell Street Morley WA 6062
+  image: https://placehold.it/350x150
+  tags:
+  - clothes
+  - white goods
+- name: Armadale
+  address: Shop 2 Jull Street Armadale WA 6112
+  image: https://placehold.it/350x150
+  tags:
+  - clothes
+  - white goods
 products:
 - title: An ancient heirloom
+  name: heirloom
   image: https://placehold.it/350x150
   price: "$2"
   store: Joondalup
+- title: Rock flavoured vase
+  name: rockvase
+  image: https://placehold.it/350x150
+  price: "$20"
+  store: Belmont
 - title: A nice dress
+  name: dress
   image: https://placehold.it/350x150
   price: "$3"
   store: North Perth
 - title: Culturally significant spears
+  name: spears
   image: https://placehold.it/350x150
   price: "$10"
   store: Maddington
+- title: Warm Jacket
+  name: jacket
+  image: https://placehold.it/350x150
+  price: "$20"
+  store: North Perth
+- title: Boomerang
+  name: boomerange
+  image: https://placehold.it/350x150
+  price: "$5"
+  store: Fremantle
+- title: Diary
+  name: diary
+  image: https://placehold.it/350x150
+  price: "$5"
+  store: Belmont
+- title: Playing Cards
+  name: playingcards
+  image: https://placehold.it/350x150
+  price: "$2"
+  store: Armadale
+pcategories:
+- name: Antiques
+  products:
+  - heirloom
+  - spears
+  - boomerang
+  - rockvase
+- name: Clothes
+  products:
+  - dress
+  - jacket
+- name: Toys
+  products:
+  - playingcards
+- name: White Goods
+  products:
+  - diary
