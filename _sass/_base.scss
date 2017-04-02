@@ -214,6 +214,11 @@ header {
     }
 }
 
+.brand-text {
+    font-family: Helvetica, cursive;
+    text-transform: none;
+}
+
 header.page {
     @media (min-width: 768px) {
         min-height: 50%;
