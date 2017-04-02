@@ -125,6 +125,9 @@ aside {
                 color: white;
             }
         }
+        &.affix-top {
+            background-color: #000000aa;
+        }
         &.affix {
             background-color: white;
             border-color: rgba($theme-dark, .5);
@@ -158,6 +161,12 @@ header {
     background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
+    .header-overlay {
+        position: absolute;
+        min-height: 100%;
+        min-width: 100%;
+        background-color: #00000099;
+    }
     .header-content {
         position: relative;
         text-align: center;
@@ -205,6 +214,11 @@ header {
     }
 }
 
+.brand-text {
+    font-family: Helvetica, cursive;
+    text-transform: none;
+}
+
 header.page {
     @media (min-width: 768px) {
         min-height: 50%;
@@ -226,12 +240,26 @@ header.page {
     }
 
     .content-row-thumbnail {
+        min-width: 150px;
         min-height: 150px;
-        max-height: 150px;
 
         @media (min-width: 768px) {
-            min-height: 350px;
-            max-height: 150px;
+            min-width: 350px;
+            min-height: 150px;
+        }
+    }
+}
+
+// Thumbnails
+
+.thumbnail {
+    .thumbnail-image {
+        max-width: 350px;
+        max-height: 150px;
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
         }
     }
 }

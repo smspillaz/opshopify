@@ -19,14 +19,14 @@ baseurl:
 stores:
 - name: Kelmscott
   address: 1/227 Railway Avenue Kelmscott WA 6111
-  image: https://placehold.it/350x150
+  image: "/uploads/kelmscott.PNG"
   tags:
   - stylish
   - fun
   - cheap
 - name: North Perth
   address: 392 Fitzgerald Street North Perth WA  6006
-  image: https://placehold.it/350x150
+  image: "/uploads/north%20perth-191eb0.PNG"
   tags:
   - vintage
   - high end
@@ -34,32 +34,33 @@ stores:
   - collectors
 - name: Belmont
   address: 9/199 Abernethy Road Belmont WA 6104
-  image: https://placehold.it/350x150
+  image: "/uploads/belmont.PNG"
   tags:
   - clothes
   - white goods
 - name: Fremantle
   address: Shop 1 142 High Street Fremantle WA 6160
-  image: https://placehold.it/350x150
+  image: "/uploads/Fremantle.PNG"
   tags:
   - furniture
   - clothes
   - trinkets
 - name: Maddington
   address: 2/3 Maddington Square 80 Attfield Street Maddington WA 6109
-  image: https://placehold.it/350x150
+  image: "/uploads/Maddington.PNG"
   tags:
   - clothes
   - white goods
 - name: Morley
   address: 4/129 Russell Street Morley WA 6062
-  image: https://placehold.it/350x150
+  image: "/uploads/Morley.PNG"
   tags:
   - clothes
   - white goods
-- name: Armadale
+- name: Armadale (Not the actual store but could be what the store could look like
+    in the shopping centre)
   address: Shop 2 Jull Street Armadale WA 6112
-  image: https://placehold.it/350x150
+  image: "/uploads/Armadale.PNG"
   tags:
   - clothes
   - white goods
@@ -71,7 +72,7 @@ products:
   store: Joondalup
 - title: Rock flavoured vase
   name: rockvase
-  image: https://placehold.it/350x150
+  image: "/uploads/spring-2087435_640.jpg"
   price: "$20"
   store: Belmont
 - title: A nice dress
@@ -81,27 +82,27 @@ products:
   store: North Perth
 - title: Culturally significant spears
   name: spears
-  image: https://placehold.it/350x150
+  image: "/uploads/don-quixote-1730269_640.jpg"
   price: "$10"
   store: Maddington
 - title: Warm Jacket
   name: jacket
-  image: https://placehold.it/350x150
+  image: "/uploads/man-1888335_640.jpg"
   price: "$20"
   store: North Perth
 - title: Boomerang
-  name: boomerange
-  image: https://placehold.it/350x150
+  name: boomerang
+  image: "/uploads/boomerang-1617503_640.jpg"
   price: "$5"
   store: Fremantle
 - title: Diary
   name: diary
-  image: https://placehold.it/350x150
+  image: "/uploads/notebook-1939358_640.jpg"
   price: "$5"
   store: Belmont
 - title: Playing Cards
   name: playingcards
-  image: https://placehold.it/350x150
+  image: "/uploads/playing-cards-1776279_640.jpg"
   price: "$2"
   store: Armadale
 pcategories:

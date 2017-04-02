@@ -13,7 +13,9 @@ layout: default
         {% if category.products contains product.name %}
         <div class="col-md-4">
             <div class="thumbnail text-center">
-                <img src="{{ product.image }}" alt="{{ product.title }} image">
+                <div class="thumbnail-image">
+                    <img src="{{ product.image }}" alt="{{ product.title }} image">
+                </div>
                 <div class="caption"></div>
                 <h3>{{ product.title }}</h3>
                 <p>{{ product.description }}</p>
