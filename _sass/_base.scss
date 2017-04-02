@@ -226,11 +226,11 @@ header.page {
     }
 
     .content-row-thumbnail {
-        min-height: 150px;
+        min-width: 150px;
         max-height: 150px;
 
         @media (min-width: 768px) {
-            min-height: 350px;
+            min-width: 350px;
             max-height: 150px;
         }
     }
