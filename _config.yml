@@ -84,11 +84,40 @@ products:
   image: https://placehold.it/350x150
   price: "$10"
   store: Maddington
+- title: Warm Jacket
+  name: jacket
+  image: https://placehold.it/350x150
+  price: "$20"
+  store: North Perth
+- title: Boomerang
+  name: boomerange
+  image: https://placehold.it/350x150
+  price: "$5"
+  store: Fremantle
+- title: Diary
+  name: diary
+  image: https://placehold.it/350x150
+  price: "$5"
+  store: Belmont
+- title: Playing Cards
+  name: playingcards
+  image: https://placehold.it/350x150
+  price: "$2"
+  store: Armadale
 pcategories:
 - name: Antiques
   products:
   - heirloom
   - spears
+  - boomerang
+  - rockvase
 - name: Clothes
   products:
   - dress
+  - jacket
+- name: Toys
+  products:
+  - playingcards
+- name: White Goods
+  products:
+  - diary
