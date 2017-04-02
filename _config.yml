@@ -24,7 +24,6 @@ stores:
   - stylish
   - fun
   - cheap
-  - 
 - name: North Perth
   address: 392 Fitzgerald Street North Perth WA  6006
   image: "/uploads/north%20perth-191eb0.PNG"
@@ -60,10 +59,12 @@ stores:
   - white goods
 - name: Armadale
   address: Shop 2 Jull Street Armadale WA 6112
-  image: https://placehold.it/350x150
+  image: "/uploads/Armadale.PNG"
   tags:
   - clothes
   - white goods
+  Key: Not the actual store but could be what the stores could look like in shopping
+    centres
 products:
 - title: An ancient heirloom
   name: heirloom
@@ -105,11 +106,6 @@ products:
   image: "/uploads/playing-cards-1776279_640.jpg"
   price: "$2"
   store: Armadale
-- title: Urn
-  name: urn
-  image: "/uploads/peonies-2044874_640.jpg"
-  price: "$35"
-  store: Belmont
 pcategories:
 - name: Antiques
   products:
@@ -127,4 +123,3 @@ pcategories:
 - name: White Goods
   products:
   - diary
-Field name: 
