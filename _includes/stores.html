@@ -5,20 +5,22 @@
                 <h2 class="section-heading">Stores</h2>
             </div>
             {% for store in site.stores %}
-            <div class="col-md-3">
-                <div class="thumbnail text-center">
-                    <img src="{{ store.image }}" alt="{{ store.name }} image">
-                    <div class="caption"></div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="thumbnail text-center">
+                        <img src="{{ store.image }}" alt="{{ store.name }} image">
+                        <div class="caption"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-9">
-                <h3>{{ store.name }}</h3>
-                <p><b>Address:</b> {{ store.address }}</p>
-                <ul>
-                    {% for tag in store.tags %}
-                    <li>{{ tag }}</li>
-                    {% endfor %}
-                </ul>
+                <div class="col-md-9">
+                    <h3>{{ store.name }}</h3>
+                    <p><b>Address:</b> {{ store.address }}</p>
+                    <ul>
+                        {% for tag in store.tags %}
+                        <li>{{ tag }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
             {% endfor %}
         </div>
